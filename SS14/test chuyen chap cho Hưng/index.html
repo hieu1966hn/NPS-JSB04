@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h1>The select form attribute</h1>
+
+  <p>The form attribute specifies which form the drop-down list belongs to:</p>
+
+  <form id="carform">
+    <label for="fname">Firstname:</label>
+    <input type="text" id="fname" name="fname">
+    <input type="submit">
+  </form>
+  <br>
+
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="carlist" form="carform">
+    <option value="chap1">chap1</option>
+    <option value="chap2">chap2</option>
+    <option value="chap3">chap3</option>
+    <option value="chap4">chap4</option>
+  </select>
+
+  <p>The drop-down list is defined outside the form element, but will be submitted with the form.</p>
+
+
+  <div id="app">
+    <!-- chung ta se chuyen chap o day nha  -->
+  </div>
+
+
+
+  <script src="./index.js"></script>
+  <script src="./components.js"></script>
+  <script src="./view.js"></script>
+</body>
+
+</html>

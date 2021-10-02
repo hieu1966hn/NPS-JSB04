@@ -1,0 +1,14 @@
+body{
+    margin-left: 30%;
+}
+body form div{
+    margin-top: 15px;
+}
+#comment{
+    height: 76px;
+    width: 290px;
+}
+#female , #male, #other{
+    background-color: gray;
+}
+
